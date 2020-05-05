@@ -1,2 +1,2 @@
 # clc.wtf
-#This is the first our project, Mihon, Cepera and I
+# This is the test of commiting
