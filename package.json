@@ -1,0 +1,9 @@
+{
+  "name": "clc.wtf",
+  "version": "0.0.1",
+  "description": "My first TS project",
+  "main": "index.js",
+  "repository": "https://github.com/dniwe-team/clc.wtf",
+  "author": "TheDeGor <degor1983@gmail.com>",
+  "license": "MIT"
+}
