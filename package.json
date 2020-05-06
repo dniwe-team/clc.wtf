@@ -1,0 +1,19 @@
+{
+  "name": "clc.wtf",
+  "version": "0.0.1",
+  "description": "My first TS project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dniwe-team/clc.wtf.git"
+  },
+  "author": "TheDeGor <degor1983@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dniwe-team/clc.wtf/issues"
+  },
+  "homepage": "https://github.com/dniwe-team/clc.wtf#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
