@@ -1,5 +1,4 @@
 const express = require('express');
-const router = require('./router');
 
 const app = express();
 
@@ -10,9 +9,3 @@ const myLogger = (req, res, next) => {
 };
 
 app.use(myLogger);
-
-app.use('/', router);
-
-app.listen(3000, () => {
-  console.log('Example app listening on port 3000!');
-});
