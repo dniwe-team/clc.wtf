@@ -1,10 +1,10 @@
 const express = require('express');
-const middleware = require('./middleware');
+const middlewares = require('./middleware');
 const router = require('./router');
 
 const app = express();
 
-app.use(middleware);
+app.use(middlewares.logger.logger);
 app.use(router);
 
 app.listen(3000, () => {
