@@ -1,3 +1,5 @@
 const logger = require('./logger');
 
-module.exports = logger;
+module.exports = {
+  logger,
+};
