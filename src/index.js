@@ -1,16 +1,14 @@
 const express = require('express');
 const config = require('config');
-const dotenv = require('dotenv');
 const middlewares = require('./middleware');
 const router = require('./router');
 
 const app = express();
-dotenv.config();
-const PORT = config.get('port') || process.env.PORT || 3000;
 
-console.log(process.env.PORT);
+const PORT = config.get('port');
+console.log(config.util.getEnv('port'));
 
-app.use(middlewares.logger.logger);
+app.use(middlewares.logger);
 app.use(router);
 
 app.listen(PORT, () => {
