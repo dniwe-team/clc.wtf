@@ -5,8 +5,7 @@ const router = require('./router');
 
 const app = express();
 
-const PORT = config.get('port');
-console.log(config.util.getEnv('port'));
+const PORT = process.env.PORT || config.get('port');
 
 app.use(middlewares.logger);
 app.use(router);
