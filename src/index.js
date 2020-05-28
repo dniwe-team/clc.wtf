@@ -1,15 +1,15 @@
 const express = require('express');
+const config = require('config');
+const middlewares = require('./middleware');
+const router = require('./router');
 
 const app = express();
 
-app.get('/', (req, res) => {
-  res.send('Got GET request and send you "Hello, world"');
-});
+const PORT = process.env.PORT || config.get('port');
 
-app.post('/', (req, res) => {
-  res.send('Got POST request and send you "Hello, world"');
-});
+app.use(middlewares.logger);
+app.use(router);
 
-app.listen(3000, () => {
-  console.log('Example app listening on port 3000!');
+app.listen(PORT, () => {
+  console.log(`Example app listening on port ${PORT}`);
 });
