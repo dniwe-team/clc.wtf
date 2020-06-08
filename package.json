@@ -15,7 +15,9 @@
   "homepage": "https://github.com/dniwe-team/clc.wtf#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "yarn eslint 'src/**/*.js'"
+    "lint": "yarn eslint 'src/**/*.js'",
+    "dbup": "db-migrate up",
+    "dbdown": "db-migrate down"
   },
   "dependencies": {
     "config": "^3.3.1",
