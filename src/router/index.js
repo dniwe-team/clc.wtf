@@ -1,9 +1,8 @@
 const express = require('express');
 const path = require('path');
-const reducer = require('../controllers/reducer')
+const reducer = require('../controllers/reducer');
 
 const router = express.Router();
-
 
 
 router.get('/', (req, res) => {
@@ -11,8 +10,7 @@ router.get('/', (req, res) => {
 });
 
 router.post('/reducer', (req, res) => {
-  console.log(req.body);
-  res.send(reducer(req.body.link));
+  res.send(reducer(req.body));
 });
 
 router.post('/', (req, res) => {
