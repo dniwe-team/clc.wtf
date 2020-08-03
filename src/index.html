@@ -40,7 +40,7 @@
         <div class="col-6">
           <div class="form-group">
             <label for="">Reduced link</label>
-            <textarea class="form-control" name="" id="reduced-link" rows="1">https://rdcdlnk.lnk</textarea>
+            <textarea class="form-control" name="" id="reduced-link" rows="1"></textarea>
           </div>
         </div>
       </div>
@@ -75,6 +75,9 @@
           $("#reduced-link").val(data.rcdlink);
         });
       });
+    </script>
+    <script>
+      $("#btn_reduce").trigger("click");
     </script>
   </body>
 </html>
