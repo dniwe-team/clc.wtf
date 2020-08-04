@@ -3,10 +3,7 @@
   "version": "0.0.1",
   "description": "My first TS project",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dniwe-team/clc.wtf.git"
-  },
+  "repository": "git+https://github.com/dniwe-team/clc.wtf.git",
   "author": "TheDeGor <degor1983@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -14,10 +11,15 @@
   },
   "homepage": "https://github.com/dniwe-team/clc.wtf#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ts-node -T test/index.ts",
     "lint": "yarn eslint 'src/**/*.js'",
     "dbup": "db-migrate up",
-    "dbdown": "db-migrate down"
+    "dbdown": "db-migrate down",
+    "ts-node-dev": "node ./bin/ts-node-dev",
+    "tsnd": "yarn ts-node-dev",
+    "test-dev": "ts-node-dev -T --respawn test/index.ts --output",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
   },
   "dependencies": {
     "config": "^3.3.1",
@@ -25,15 +27,15 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jQuery": "^1.7.4",
-    "node-fetch": "^2.6.0",
     "tsc": "^1.20150623.0",
-    "typescript": "^3.8.3"
+    "typescript": "^3.9.7"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.31.0",
     "@typescript-eslint/parser": "^2.31.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.2"
+    "eslint-plugin-import": "^2.20.2",
+    "ts-node-dev": "^1.0.0-pre.56"
   }
 }

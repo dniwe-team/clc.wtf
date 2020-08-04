@@ -2,3 +2,4 @@ node_modules
 *.vscode
 config.env
 *.code-workspace
+*.sublime-project
