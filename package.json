@@ -22,11 +22,15 @@
     "tsc:w": "tsc -w"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "config": "^3.3.1",
     "db-migrate-pg": "^1.2.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+<<<<<<< HEAD
     "jQuery": "^1.7.4",
+=======
+>>>>>>> develop
     "tsc": "^1.20150623.0",
     "typescript": "^3.9.7"
   },
