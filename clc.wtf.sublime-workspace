@@ -8,28 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 67,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 1161,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "\"bin\": {\n    \"ts-node-dev\": \"./bin/ts-node-dev\",\n    \"tsnd\": \"./bin/ts-node-dev\"",
-			"settings":
-			{
-				"buffer_size": 80,
+				"buffer_size": 1291,
 				"line_ending": "Unix"
 			}
 		}
@@ -45,6 +27,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -78,12 +72,15 @@
 	],
 	"file_history":
 	[
+		"/home/degor/git.repo/clc.wtf/tsconfig.json",
 		"/home/degor/git.repo/clc.wtf/package.json",
+		"/home/degor/Sanya_C/example.c",
+		"/home/degor/meld/setup.py",
+		"/home/degor/git.repo/clc.wtf/.gitignore",
 		"/home/degor/.config/sublime-text-3/Packages/NavPanel/NavPanel.sublime-settings",
 		"/home/degor/git.repo/clc.wtf/src/package.json",
 		"/usr/share/applications/Zoom.desktop",
 		"/usr/share/applications/postman.desktop",
-		"/home/degor/git.repo/clc.wtf/.gitignore",
 		"/home/degor/git.repo/clc.wtf/src/css/styles.css",
 		"/home/degor/git.repo/clc.wtf/src/index.html",
 		"/home/degor/git.repo/omskBase/src/queries.js",
@@ -128,59 +125,29 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 67,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								51,
-								51
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1161,
+						"buffer_size": 1291,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								238,
-								238
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -192,36 +159,8 @@
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 80,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								80,
-								80
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -263,6 +202,14 @@
 		]
 	},
 	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 108.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
