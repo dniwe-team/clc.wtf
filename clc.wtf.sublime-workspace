@@ -11,7 +11,16 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 1291,
+				"buffer_size": 1277,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tsconfig.json",
+			"settings":
+			{
+				"buffer_size": 6179,
 				"line_ending": "Unix"
 			}
 		}
@@ -28,19 +37,7 @@
 		"selected_items":
 		[
 			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
 				"inst",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: ",
-				"Package Control: Remove Package"
-			],
-			[
-				"insta",
 				"Package Control: Install Package"
 			],
 			[
@@ -52,7 +49,7 @@
 	},
 	"console":
 	{
-		"height": 136.0,
+		"height": 0.0,
 		"history":
 		[
 		]
@@ -72,25 +69,12 @@
 	],
 	"file_history":
 	[
-		"/home/degor/git.repo/clc.wtf/tsconfig.json",
-		"/home/degor/git.repo/clc.wtf/package.json",
-		"/home/degor/Sanya_C/example.c",
-		"/home/degor/meld/setup.py",
-		"/home/degor/git.repo/clc.wtf/.gitignore",
-		"/home/degor/.config/sublime-text-3/Packages/NavPanel/NavPanel.sublime-settings",
-		"/home/degor/git.repo/clc.wtf/src/package.json",
-		"/usr/share/applications/Zoom.desktop",
+		"/home/degor/git.repo/clc.wtf/node_modules/@types/express/index.d.ts",
+		"/home/degor/git.repo/clc.wtf/node_modules/@tsconfig/node12/tsconfig.json",
 		"/usr/share/applications/postman.desktop",
-		"/home/degor/git.repo/clc.wtf/src/css/styles.css",
-		"/home/degor/git.repo/clc.wtf/src/index.html",
-		"/home/degor/git.repo/omskBase/src/queries.js",
-		"/home/degor/git.repo/omskBase/.gitignore",
-		"/home/degor/git.repo/omskBase/sql-requests/all_ids.sql",
-		"/etc/apt/sources.list.d/pgdg.list",
-		"/media/degor/C49E4F5F9E4F495E/Distr/db/valentina studio/serial.txt",
-		"/home/degor/Загрузки/bootstrap-4.5.0-examples/sign-in/index.html",
-		"/home/degor/Загрузки/bootstrap-4.5.0-examples/grid/index.html",
-		"/home/degor/git.repo/clc.wtf/README.md"
+		"/usr/share/applications/firefox.desktop",
+		"/home/degor/.zshrc",
+		"/etc/profile.d/vte-2.91.sh"
 	],
 	"find":
 	{
@@ -125,7 +109,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -134,7 +118,37 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1291,
+						"buffer_size": 1277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								828,
+								828
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "tsconfig.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 6179,
 						"regions":
 						{
 						},
@@ -147,7 +161,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -156,11 +172,6 @@
 					"stack_index": 0,
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
@@ -181,18 +192,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -205,10 +209,6 @@
 	"output.SublimeLinter":
 	{
 		"height": 0.0
-	},
-	"output.SublimeLinter Messages":
-	{
-		"height": 108.0
 	},
 	"output.find_results":
 	{
@@ -256,7 +256,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 244.0,
+	"side_bar_width": 232.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

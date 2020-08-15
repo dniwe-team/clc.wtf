@@ -4,3 +4,4 @@ config.env
 *.code-workspace
 *.sublime-project
 build
+*.sublime-workspace
