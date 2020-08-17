@@ -1,7 +1,7 @@
 import express from 'express';
 import path from 'path';
 
-import reducer from '../controllers/reducer';
+import reducer from 'src/controllers/reducer';
 
 const router = express.Router();
 
@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
 });
 
 router.post('/reducer', (req, res) => {
-  res.send(reducer(req.body));
+  res.send(reducer(req.body.link));
 });
 
 router.post('/', (req, res) => {
