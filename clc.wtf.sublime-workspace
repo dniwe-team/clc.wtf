@@ -3,15 +3,32 @@
 	{
 		"selected_items":
 		[
+			[
+				"u",
+				"ubuntu"
+			],
+			[
+				"ser",
+				"mysql-server"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "package.json",
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 1291,
+				"buffer_size": 62,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/usr/share/applications/postman.desktop",
+			"settings":
+			{
+				"buffer_size": 164,
 				"line_ending": "Unix"
 			}
 		}
@@ -28,12 +45,20 @@
 		"selected_items":
 		[
 			[
-				"ins",
-				"Package Control: Install Package"
+				"pack",
+				"Package Control: List Packages"
 			],
 			[
 				"inst",
 				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Build With: Docker Compose"
 			],
 			[
 				"Package Control: ",
@@ -42,17 +67,13 @@
 			[
 				"insta",
 				"Package Control: Install Package"
-			],
-			[
-				"pack",
-				"Install Package Control"
 			]
 		],
 		"width": 0.0
 	},
 	"console":
 	{
-		"height": 136.0,
+		"height": 137.0,
 		"history":
 		[
 		]
@@ -68,15 +89,21 @@
 	},
 	"expanded_folders":
 	[
-		"/home/degor/git.repo/clc.wtf"
+		"/home/degor/git.repo/clc.wtf",
+		"/home/degor/git.repo/clc.wtf/build"
 	],
 	"file_history":
 	[
+		"/home/degor/.zshrc",
+		"/home/degor/zabbix-docker/docker-compose_v3_my.yaml",
+		"/home/degor/zabbix-docker/snmptraps/ubuntu/Dockerfile",
 		"/home/degor/git.repo/clc.wtf/tsconfig.json",
 		"/home/degor/git.repo/clc.wtf/package.json",
+		"/home/degor/git.repo/clc.wtf/.gitignore",
+		"/home/degor/.config/sublime-text-3/Packages/Pretty JSON/Pretty JSON.sublime-settings",
+		"/home/degor/.config/sublime-text-3/Packages/User/Pretty JSON.sublime-settings",
 		"/home/degor/Sanya_C/example.c",
 		"/home/degor/meld/setup.py",
-		"/home/degor/git.repo/clc.wtf/.gitignore",
 		"/home/degor/.config/sublime-text-3/Packages/NavPanel/NavPanel.sublime-settings",
 		"/home/degor/git.repo/clc.wtf/src/package.json",
 		"/usr/share/applications/Zoom.desktop",
@@ -94,7 +121,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -125,16 +152,44 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "package.json",
+					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1291,
+						"buffer_size": 62,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/usr/share/applications/postman.desktop",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 164,
 						"regions":
 						{
 						},
@@ -147,7 +202,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -166,7 +221,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -210,6 +265,10 @@
 	{
 		"height": 108.0
 	},
+	"output.exec":
+	{
+		"height": 109.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -218,7 +277,7 @@
 	"project": "clc.wtf.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
