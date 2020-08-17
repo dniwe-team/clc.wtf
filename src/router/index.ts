@@ -1,6 +1,7 @@
-const express = require('express');
-const path = require('path');
-const reducer = require('../controllers/reducer');
+import express from 'express';
+import path from 'path';
+
+import reducer from '../controllers/reducer';
 
 const router = express.Router();
 
