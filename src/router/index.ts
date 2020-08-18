@@ -26,4 +26,4 @@ router.post('/about', (req, res) => {
   res.send('Got POST request and send you "It\'s about"');
 });
 
-module.exports = router;
+export default router;

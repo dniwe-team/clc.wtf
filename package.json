@@ -11,7 +11,7 @@
   },
   "homepage": "https://github.com/dniwe-team/clc.wtf#readme",
   "scripts": {
-    "test": "ts-node -T test/index.ts",
+    "test": "ts-node -T src/index.ts",
     "lint": "yarn eslint 'src/**/*.ts'",
     "dbup": "db-migrate up",
     "dbdown": "db-migrate down",
