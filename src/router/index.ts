@@ -1,7 +1,7 @@
 import express from 'express';
 import path from 'path';
 
-import reducer from 'src/controllers/reducer';
+import reducer from '../controllers/reducer';
 
 const router = express.Router();
 

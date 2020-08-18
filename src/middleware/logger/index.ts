@@ -1,6 +1,7 @@
-import { request, response } from 'express';
+// eslint-disable-next-line no-unused-vars
+import { Request, Response, NextFunction } from 'express';
 
-function logger(req: typeof request, res: typeof response, next: typeof next): void {
+function logger(req: Request, res: Response, next: NextFunction): void {
   const msg: string = (`Дата и время запроса - ${Date()}, метод - ${req.method}, запрос в "${req.path}".`);
   console.log(msg);
   next();

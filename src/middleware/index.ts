@@ -1,3 +1,3 @@
-import logger from './middleware/logger';
+import logger from './logger';
 
 export default { logger };
