@@ -1,6 +1,7 @@
-const express = require('express');
-const path = require('path');
-const reducer = require('../controllers/reducer');
+import express from 'express';
+import path from 'path';
+
+import reducer from '../controllers/reducer';
 
 const router = express.Router();
 
@@ -10,7 +11,7 @@ router.get('/', (req, res) => {
 });
 
 router.post('/reducer', (req, res) => {
-  res.send(reducer(req.body));
+  res.send(reducer(req.body.link));
 });
 
 router.post('/', (req, res) => {
@@ -25,4 +26,4 @@ router.post('/about', (req, res) => {
   res.send('Got POST request and send you "It\'s about"');
 });
 
-module.exports = router;
+export default router;

@@ -1,7 +1,7 @@
-const express = require('express');
-const config = require('config');
-const middlewares = require('./middleware');
-const router = require('./router');
+import express from 'express';
+import config from 'config';
+import middlewares from './middleware';
+import router from './router';
 
 const app = express();
 const PORT = process.env.PORT || config.get('port');
